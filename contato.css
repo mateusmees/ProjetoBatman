@@ -1,0 +1,106 @@
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.form-contact {
+    margin: 40px 0;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.entry, .form-contact textarea {
+    display: flex;
+    margin: 0 auto 25px;
+    padding: 8px 10px;
+    font-size: 12px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+#checkbox, .div-entry {
+    margin: 25px auto;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button-contato {
+    width: 200px;
+    height: 60px;
+    margin: 0 auto 25px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button-contato:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.contats {
+    height: 100px;
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-navigation-contato {
+    display: none;
+
+
+}
+
+@media(max-width:768px){
+    .button-contato {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+
+    #banner-contato {
+        background-position: 50%;
+        height: 100px;
+    }
+
+    .main-contact {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    
+        .footer-navigation-contato {
+            display:block;
+}
